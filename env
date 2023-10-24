@@ -1,9 +1,9 @@
 # IN application vars
-APP_URL=http://in.localhost:8003
-APP_KEY=<insert your generated key in here>
-APP_DEBUG=true
+APP_URL=http:/in5.localhost
+APP_KEY=a14ldE0SXGcH41p8W+yuevN2qJ8UGT6SaGwd/kWAG00=
+APP_DEBUG=false
 REQUIRE_HTTPS=false
-PHANTOMJS_PDF_GENERATION=false
+PHANTOMJS_PDF_GENERATION=true
 PDF_GENERATOR=snappdf
 TRUSTED_PROXIES='*'
 
@@ -21,21 +21,22 @@ DB_PASSWORD=ninja
 # Default to these values if empty
 # IN_USER_EMAIL=admin@example.com
 # IN_PASSWORD=changeme!
-IN_USER_EMAIL=
-IN_PASSWORD=
+IN_USER_EMAIL=chusak.h@ginkgosoft.co.th
+IN_PASSWORD=k@dig300944T
 
 # Mail options
 MAIL_MAILER=log
-MAIL_HOST=smtp.mailtrap.io
-MAIL_PORT=2525
-MAIL_USERNAME=null
+MAIL_HOST=smtp.office365.com
+MAIL_PORT=587
+MAIL_USERNAME=chusak.h@ginkgosoft.co.th
+
 MAIL_PASSWORD=null
 MAIL_ENCRYPTION=null
-MAIL_FROM_ADDRESS='user@example.com'
+MAIL_FROM_ADDRESS='chusak.h@ginkgosoft.co.th'
 MAIL_FROM_NAME='Self Hosted User'
 
 # MySQL
-MYSQL_ROOT_PASSWORD=ninjaAdm1nPassword
+MYSQL_ROOT_PASSWORD=kadig78T
 MYSQL_USER=ninja
 MYSQL_PASSWORD=ninja
 MYSQL_DATABASE=ninja
